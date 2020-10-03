@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyPatientCell" id="Alu-Ak-3Ig" customClass="MyPatientTableViewCell" customModule="Clinivo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Alu-Ak-3Ig" id="ZMr-jW-ePo">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient-2" translatesAutoresizingMaskIntoConstraints="NO" id="HCW-dh-hp9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient's Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="709-hP-sJr">
+                        <rect key="frame" x="20" y="25" width="143" height="23.5"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="new kingston" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0O-OR-nG5">
+                        <rect key="frame" x="20" y="104.5" width="109" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kingston, Kingston" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wza-ib-50P">
+                        <rect key="frame" x="20" y="139.5" width="157" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jamaica" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ndd-uP-pXj">
+                        <rect key="frame" x="20" y="174.5" width="70" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BQx-RN-tMD">
+                        <rect key="frame" x="20" y="78.5" width="71" height="21"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4N3-8a-1oA">
+                        <rect key="frame" x="276" y="79" width="105" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March 24, 1999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bwS-yu-5Uy">
+                        <rect key="frame" x="263" y="104" width="131" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bwS-yu-5Uy" firstAttribute="centerX" secondItem="4N3-8a-1oA" secondAttribute="centerX" id="7l6-V8-IQ2"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Ndd-uP-pXj" secondAttribute="bottom" constant="20.5" id="88I-s4-9OE"/>
+                    <constraint firstItem="A0O-OR-nG5" firstAttribute="leading" secondItem="ZMr-jW-ePo" secondAttribute="leadingMargin" id="8xf-O7-Aaf"/>
+                    <constraint firstItem="bwS-yu-5Uy" firstAttribute="top" secondItem="4N3-8a-1oA" secondAttribute="bottom" constant="5" id="CAG-Xj-pd0"/>
+                    <constraint firstItem="A0O-OR-nG5" firstAttribute="top" secondItem="BQx-RN-tMD" secondAttribute="bottom" constant="5" id="FcM-hz-Bp8"/>
+                    <constraint firstItem="709-hP-sJr" firstAttribute="top" secondItem="ZMr-jW-ePo" secondAttribute="top" constant="25" id="GcG-X0-Uu0"/>
+                    <constraint firstItem="BQx-RN-tMD" firstAttribute="leading" secondItem="ZMr-jW-ePo" secondAttribute="leadingMargin" id="TYa-Er-sjW"/>
+                    <constraint firstItem="wza-ib-50P" firstAttribute="leading" secondItem="ZMr-jW-ePo" secondAttribute="leadingMargin" id="bdp-RF-zgz"/>
+                    <constraint firstItem="wza-ib-50P" firstAttribute="top" secondItem="A0O-OR-nG5" secondAttribute="bottom" constant="15" id="eX8-Hd-C8h"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4N3-8a-1oA" secondAttribute="trailing" constant="13" id="g5O-IZ-Ph9"/>
+                    <constraint firstItem="bwS-yu-5Uy" firstAttribute="trailing" secondItem="ZMr-jW-ePo" secondAttribute="trailingMargin" id="nZX-eJ-vyG"/>
+                    <constraint firstItem="709-hP-sJr" firstAttribute="leading" secondItem="ZMr-jW-ePo" secondAttribute="leading" constant="20" id="pUD-Hz-Euq"/>
+                    <constraint firstItem="4N3-8a-1oA" firstAttribute="centerY" secondItem="BQx-RN-tMD" secondAttribute="centerY" id="pkP-c0-NUZ"/>
+                    <constraint firstItem="Ndd-uP-pXj" firstAttribute="leading" secondItem="ZMr-jW-ePo" secondAttribute="leadingMargin" id="wzQ-s8-UDo"/>
+                    <constraint firstItem="BQx-RN-tMD" firstAttribute="top" secondItem="709-hP-sJr" secondAttribute="bottom" constant="30" id="y3C-c9-ego"/>
+                    <constraint firstItem="Ndd-uP-pXj" firstAttribute="top" secondItem="wza-ib-50P" secondAttribute="bottom" constant="15" id="zAU-Ea-8u4"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="city_and_parish" destination="wza-ib-50P" id="eMc-Io-NNZ"/>
+                <outlet property="country" destination="Ndd-uP-pXj" id="vdc-NS-mgP"/>
+                <outlet property="dob" destination="bwS-yu-5Uy" id="hEN-Ti-R9x"/>
+                <outlet property="paient_name" destination="709-hP-sJr" id="Afc-Cs-BtS"/>
+                <outlet property="street" destination="A0O-OR-nG5" id="Z2r-Cf-c99"/>
+            </connections>
+            <point key="canvasLocation" x="-243" y="53"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gradient-2" width="95" height="206"/>
+    </resources>
+</document>

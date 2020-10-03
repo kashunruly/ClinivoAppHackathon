@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="WelcomeCell" rowHeight="1130" id="ZUG-oj-VUl" customClass="WelcomeTableViewCell" customModule="Clinivo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="1130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ZUG-oj-VUl" id="E85-VQ-ank">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="1130"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8mr-8e-gnd">
+                        <rect key="frame" x="10" y="12" width="394" height="192"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="COVID-19_Facebook-ImagesFacebook-Post-2" translatesAutoresizingMaskIntoConstraints="NO" id="2T0-Ek-69D">
+                                <rect key="frame" x="0.0" y="0.0" width="394" height="192"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2T0-Ek-69D" secondAttribute="height" multiplier="197:96" id="N0h-R3-QqL"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2T0-Ek-69D" firstAttribute="leading" secondItem="8mr-8e-gnd" secondAttribute="leading" id="E1w-DU-bb9"/>
+                            <constraint firstAttribute="width" secondItem="8mr-8e-gnd" secondAttribute="height" multiplier="197:96" id="MmF-Z4-Arh"/>
+                            <constraint firstAttribute="trailing" secondItem="2T0-Ek-69D" secondAttribute="trailing" id="UwD-GM-EwD"/>
+                            <constraint firstItem="2T0-Ek-69D" firstAttribute="top" secondItem="8mr-8e-gnd" secondAttribute="top" id="uo2-Oy-Kjg"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CJR-8R-jNs">
+                        <rect key="frame" x="20" y="229" width="374" height="172"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sick-woman-with-fever-symptoms-covid19-vector-30187632" translatesAutoresizingMaskIntoConstraints="NO" id="YGb-B5-htX">
+                                <rect key="frame" x="0.0" y="1" width="172" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="YGb-B5-htX" secondAttribute="height" multiplier="86:85" id="qhs-h2-Az9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Experiencing High Fever, Couching, Out Of Breath?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BIf-r0-qKY">
+                                <rect key="frame" x="180" y="24" width="186" height="59"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="nDM-vT-IT9">
+                                <rect key="frame" x="180" y="127" width="186" height="30"/>
+                                <color key="backgroundColor" red="0.35760191079999998" green="0.11126578600000001" blue="0.27257090810000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.47450980390000003" green="0.80392156859999997" blue="0.95686274510000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Speak With a Doctor"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YGb-B5-htX" firstAttribute="leading" secondItem="CJR-8R-jNs" secondAttribute="leading" id="68C-dT-20V"/>
+                            <constraint firstItem="YGb-B5-htX" firstAttribute="top" secondItem="CJR-8R-jNs" secondAttribute="top" constant="1" id="96T-zG-AdS"/>
+                            <constraint firstAttribute="trailing" secondItem="nDM-vT-IT9" secondAttribute="trailing" constant="8" id="Har-rC-HzR"/>
+                            <constraint firstItem="BIf-r0-qKY" firstAttribute="leading" secondItem="YGb-B5-htX" secondAttribute="trailing" constant="8" id="Hqm-nl-BBT"/>
+                            <constraint firstItem="nDM-vT-IT9" firstAttribute="leading" secondItem="YGb-B5-htX" secondAttribute="trailing" constant="8" id="VeZ-JA-QEX"/>
+                            <constraint firstAttribute="height" constant="172" id="XLK-86-ehy"/>
+                            <constraint firstItem="BIf-r0-qKY" firstAttribute="top" secondItem="CJR-8R-jNs" secondAttribute="top" constant="24" id="dgx-0S-mR4"/>
+                            <constraint firstAttribute="bottom" secondItem="nDM-vT-IT9" secondAttribute="bottom" constant="15" id="e4a-W9-whE"/>
+                            <constraint firstAttribute="bottom" secondItem="YGb-B5-htX" secondAttribute="bottom" constant="1" id="eZi-5E-hiz"/>
+                            <constraint firstAttribute="width" secondItem="CJR-8R-jNs" secondAttribute="height" multiplier="187:86" id="gwO-pq-dMF"/>
+                            <constraint firstAttribute="trailing" secondItem="BIf-r0-qKY" secondAttribute="trailing" constant="8" id="uSg-0C-Zku"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prevention" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfB-7t-gxH">
+                        <rect key="frame" x="20" y="431" width="254.5" height="55.5"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="48"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jk4-dL-VIh">
+                        <rect key="frame" x="20" y="494.5" width="374" height="180"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lg_1585666156-covid blog-2" translatesAutoresizingMaskIntoConstraints="NO" id="zlg-pi-ajK">
+                                <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zlg-pi-ajK" secondAttribute="height" multiplier="1:1" id="goe-Rg-QWe"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wear A Mask" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S0f-8p-EnA">
+                                <rect key="frame" x="188" y="75.5" width="178" height="29"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="9M6-dt-Md4"/>
+                            <constraint firstAttribute="width" secondItem="Jk4-dL-VIh" secondAttribute="height" multiplier="187:90" id="Gqx-gs-39B"/>
+                            <constraint firstItem="zlg-pi-ajK" firstAttribute="top" secondItem="Jk4-dL-VIh" secondAttribute="top" id="Qqg-s0-Xhw"/>
+                            <constraint firstItem="zlg-pi-ajK" firstAttribute="leading" secondItem="Jk4-dL-VIh" secondAttribute="leading" id="T2Y-6X-Oyz"/>
+                            <constraint firstAttribute="trailing" secondItem="S0f-8p-EnA" secondAttribute="trailing" constant="8" id="mty-x0-Jw6"/>
+                            <constraint firstAttribute="bottom" secondItem="zlg-pi-ajK" secondAttribute="bottom" id="r0g-wS-W7h"/>
+                            <constraint firstItem="S0f-8p-EnA" firstAttribute="leading" secondItem="zlg-pi-ajK" secondAttribute="trailing" constant="8" id="zSt-Rf-Bek"/>
+                            <constraint firstItem="S0f-8p-EnA" firstAttribute="centerY" secondItem="zlg-pi-ajK" secondAttribute="centerY" id="zru-6g-han"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wfw-gF-sGR">
+                        <rect key="frame" x="20" y="699.5" width="374" height="180"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stay-At-Home-PNG-File" translatesAutoresizingMaskIntoConstraints="NO" id="pBm-xg-lui">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="180"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="pBm-xg-lui" secondAttribute="height" multiplier="187:90" id="kd0-55-7h1"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="wfw-gF-sGR" secondAttribute="height" multiplier="187:90" id="0Ks-kO-CqO"/>
+                            <constraint firstAttribute="trailing" secondItem="pBm-xg-lui" secondAttribute="trailing" id="ILe-wy-DJh"/>
+                            <constraint firstItem="pBm-xg-lui" firstAttribute="top" secondItem="wfw-gF-sGR" secondAttribute="top" id="Lig-Ab-G1D"/>
+                            <constraint firstItem="pBm-xg-lui" firstAttribute="leading" secondItem="wfw-gF-sGR" secondAttribute="leading" id="jRv-l5-8ge"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ghx-me-SbT">
+                        <rect key="frame" x="20" y="894.5" width="374" height="211"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Covid19" translatesAutoresizingMaskIntoConstraints="NO" id="5Jj-Pf-CvR">
+                                <rect key="frame" x="0.0" y="0.0" width="374" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="5Jj-Pf-CvR" secondAttribute="height" multiplier="374:211" id="aAU-hc-OpS"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="ghx-me-SbT" secondAttribute="height" multiplier="374:211" id="1hc-BF-Uf1"/>
+                            <constraint firstItem="5Jj-Pf-CvR" firstAttribute="leading" secondItem="ghx-me-SbT" secondAttribute="leading" id="I0H-uE-R5y"/>
+                            <constraint firstItem="5Jj-Pf-CvR" firstAttribute="top" secondItem="ghx-me-SbT" secondAttribute="top" id="O76-SR-JHU"/>
+                            <constraint firstAttribute="trailing" secondItem="5Jj-Pf-CvR" secondAttribute="trailing" id="u7o-BN-DTj"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="0.39388912668630127" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="CJR-8R-jNs" firstAttribute="trailing" secondItem="E85-VQ-ank" secondAttribute="trailingMargin" id="1F5-wS-nsb"/>
+                    <constraint firstItem="wfw-gF-sGR" firstAttribute="top" secondItem="Jk4-dL-VIh" secondAttribute="bottom" constant="25" id="9Mo-aS-BiJ"/>
+                    <constraint firstItem="Jk4-dL-VIh" firstAttribute="leading" secondItem="E85-VQ-ank" secondAttribute="leading" constant="20" id="Ebo-03-89B"/>
+                    <constraint firstItem="8mr-8e-gnd" firstAttribute="top" secondItem="E85-VQ-ank" secondAttribute="top" constant="12" id="GUx-fh-qix"/>
+                    <constraint firstAttribute="trailing" secondItem="Jk4-dL-VIh" secondAttribute="trailing" constant="20" id="Hbc-sk-h2O"/>
+                    <constraint firstItem="ghx-me-SbT" firstAttribute="trailing" secondItem="E85-VQ-ank" secondAttribute="trailingMargin" id="K3w-eZ-5Ks"/>
+                    <constraint firstItem="8mr-8e-gnd" firstAttribute="leading" secondItem="E85-VQ-ank" secondAttribute="leading" constant="10" id="Neb-qu-Gx1"/>
+                    <constraint firstItem="ghx-me-SbT" firstAttribute="leading" secondItem="E85-VQ-ank" secondAttribute="leadingMargin" id="S5Y-rT-rKy"/>
+                    <constraint firstItem="wfw-gF-sGR" firstAttribute="leading" secondItem="E85-VQ-ank" secondAttribute="leadingMargin" id="U4y-HX-SJB"/>
+                    <constraint firstItem="wfw-gF-sGR" firstAttribute="trailing" secondItem="E85-VQ-ank" secondAttribute="trailingMargin" id="WkE-2o-XoX"/>
+                    <constraint firstItem="ghx-me-SbT" firstAttribute="top" secondItem="wfw-gF-sGR" secondAttribute="bottom" constant="15" id="ZYl-ae-atw"/>
+                    <constraint firstAttribute="trailing" secondItem="8mr-8e-gnd" secondAttribute="trailing" constant="10" id="ZbZ-ac-Ney"/>
+                    <constraint firstItem="CJR-8R-jNs" firstAttribute="top" secondItem="8mr-8e-gnd" secondAttribute="bottom" constant="25" id="frO-uq-3h6"/>
+                    <constraint firstItem="CJR-8R-jNs" firstAttribute="leading" secondItem="E85-VQ-ank" secondAttribute="leadingMargin" id="gow-Jp-Wvk"/>
+                    <constraint firstItem="Jk4-dL-VIh" firstAttribute="top" secondItem="RfB-7t-gxH" secondAttribute="bottom" constant="8" id="ivT-wM-SPB"/>
+                    <constraint firstAttribute="bottom" secondItem="ghx-me-SbT" secondAttribute="bottom" constant="24.5" id="nXd-aq-z2l"/>
+                    <constraint firstItem="RfB-7t-gxH" firstAttribute="top" secondItem="CJR-8R-jNs" secondAttribute="bottom" constant="30" id="rYk-aO-qL7"/>
+                    <constraint firstItem="RfB-7t-gxH" firstAttribute="leading" secondItem="E85-VQ-ank" secondAttribute="leadingMargin" id="wUh-Vq-ChC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="fifth_image" destination="5Jj-Pf-CvR" id="p1V-wu-ZDZ"/>
+                <outlet property="fifth_view" destination="ghx-me-SbT" id="bUD-22-Pvy"/>
+                <outlet property="first_image" destination="2T0-Ek-69D" id="pdI-GX-I7X"/>
+                <outlet property="first_view" destination="8mr-8e-gnd" id="B9p-ZI-4SZ"/>
+                <outlet property="forth_image" destination="pBm-xg-lui" id="NAh-y0-lAH"/>
+                <outlet property="forth_view" destination="wfw-gF-sGR" id="SSl-oR-jUP"/>
+                <outlet property="second_image" destination="YGb-B5-htX" id="dC4-sG-dJn"/>
+                <outlet property="second_view" destination="CJR-8R-jNs" id="nL1-R3-SoY"/>
+                <outlet property="speak_with_doctor_btn" destination="nDM-vT-IT9" id="pSN-qF-Kqw"/>
+                <outlet property="third_image" destination="zlg-pi-ajK" id="mgo-Sj-jCC"/>
+                <outlet property="third_view" destination="Jk4-dL-VIh" id="uMI-k9-sdw"/>
+            </connections>
+            <point key="canvasLocation" x="168.11594202898553" y="250.44642857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="COVID-19_Facebook-ImagesFacebook-Post-2" width="1000" height="523"/>
+        <image name="Covid19" width="492" height="279"/>
+        <image name="Stay-At-Home-PNG-File" width="1280" height="720"/>
+        <image name="lg_1585666156-covid blog-2" width="1116" height="616"/>
+        <image name="sick-woman-with-fever-symptoms-covid19-vector-30187632" width="889" height="895"/>
+    </resources>
+</document>

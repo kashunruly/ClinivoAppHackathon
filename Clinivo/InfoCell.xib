@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="InfoCell" rowHeight="408" id="BoP-1e-wEj" customClass="WelcomeTableViewCell" customModule="Clinivo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="408"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="BoP-1e-wEj" id="ajW-oK-83n">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="408"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost Finished, Enter Additional information" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhU-Rq-EzJ">
+                        <rect key="frame" x="20" y="10" width="374" height="16.5"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="iRb-3w-XxM">
+                        <rect key="frame" x="20" y="61" width="374" height="70"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="70" id="QsR-Xs-wFl"/>
+                        </constraints>
+                        <connections>
+                            <action selector="dobPickerChange:" destination="BoP-1e-wEj" eventType="valueChanged" id="6hy-A1-vDa"/>
+                        </connections>
+                    </datePicker>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lAM-98-WJR">
+                        <rect key="frame" x="190.5" y="34.5" width="33.5" height="18.5"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Street Adress" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1b4-Gl-jPg">
+                        <rect key="frame" x="20" y="146" width="374" height="34"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="City" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aoB-by-GWp">
+                        <rect key="frame" x="20" y="195" width="374" height="34"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="State/Province/Parish" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YlR-Hg-nxZ">
+                        <rect key="frame" x="20" y="244" width="374" height="34"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="btS-3y-bbu">
+                        <rect key="frame" x="20" y="348" width="374" height="40"/>
+                        <color key="backgroundColor" red="0.58823529409999997" green="0.92941176469999998" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="3Xf-We-NBQ"/>
+                        </constraints>
+                        <state key="normal" title="Save">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jfY-bG-RxU">
+                        <rect key="frame" x="20" y="286" width="374" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="As3-Fo-ZXO"/>
+                        </constraints>
+                    </pickerView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="1b4-Gl-jPg" secondAttribute="trailing" constant="20" id="0LC-dF-feA"/>
+                    <constraint firstItem="aoB-by-GWp" firstAttribute="top" secondItem="1b4-Gl-jPg" secondAttribute="bottom" constant="15" id="3fT-7K-wWf"/>
+                    <constraint firstItem="YlR-Hg-nxZ" firstAttribute="leading" secondItem="ajW-oK-83n" secondAttribute="leading" constant="20" id="4c0-Hl-7lF"/>
+                    <constraint firstItem="lAM-98-WJR" firstAttribute="top" secondItem="mhU-Rq-EzJ" secondAttribute="bottom" constant="8" id="6Ab-cp-WRJ"/>
+                    <constraint firstItem="mhU-Rq-EzJ" firstAttribute="top" secondItem="ajW-oK-83n" secondAttribute="top" constant="10" id="9Yx-9I-o1F"/>
+                    <constraint firstAttribute="trailing" secondItem="jfY-bG-RxU" secondAttribute="trailing" constant="20" id="BK2-A2-UEz"/>
+                    <constraint firstItem="YlR-Hg-nxZ" firstAttribute="top" secondItem="aoB-by-GWp" secondAttribute="bottom" constant="15" id="CZ3-9b-f7T"/>
+                    <constraint firstAttribute="trailing" secondItem="iRb-3w-XxM" secondAttribute="trailing" constant="20" id="Cj4-Oc-7kE"/>
+                    <constraint firstItem="aoB-by-GWp" firstAttribute="leading" secondItem="ajW-oK-83n" secondAttribute="leading" constant="20" id="Ej7-2P-muT"/>
+                    <constraint firstItem="1b4-Gl-jPg" firstAttribute="top" secondItem="iRb-3w-XxM" secondAttribute="bottom" constant="15" id="LPH-0T-jkv"/>
+                    <constraint firstItem="lAM-98-WJR" firstAttribute="centerX" secondItem="ajW-oK-83n" secondAttribute="centerX" id="Lva-t3-02c"/>
+                    <constraint firstAttribute="trailing" secondItem="mhU-Rq-EzJ" secondAttribute="trailing" constant="20" id="Mhb-81-vr8"/>
+                    <constraint firstItem="jfY-bG-RxU" firstAttribute="top" secondItem="YlR-Hg-nxZ" secondAttribute="bottom" constant="8" id="O8p-JJ-pfn"/>
+                    <constraint firstItem="mhU-Rq-EzJ" firstAttribute="leading" secondItem="ajW-oK-83n" secondAttribute="leading" constant="20" id="PJV-dP-wRy"/>
+                    <constraint firstItem="btS-3y-bbu" firstAttribute="top" secondItem="jfY-bG-RxU" secondAttribute="bottom" constant="12" id="Pds-AM-tRi"/>
+                    <constraint firstItem="1b4-Gl-jPg" firstAttribute="leading" secondItem="ajW-oK-83n" secondAttribute="leading" constant="20" id="Rrs-Jm-Fyo"/>
+                    <constraint firstAttribute="trailing" secondItem="aoB-by-GWp" secondAttribute="trailing" constant="20" id="efh-cJ-m8g"/>
+                    <constraint firstItem="jfY-bG-RxU" firstAttribute="leading" secondItem="ajW-oK-83n" secondAttribute="leading" constant="20" id="iVI-3E-F5i"/>
+                    <constraint firstAttribute="trailing" secondItem="YlR-Hg-nxZ" secondAttribute="trailing" constant="20" id="jRo-vr-J2I"/>
+                    <constraint firstAttribute="bottom" secondItem="btS-3y-bbu" secondAttribute="bottom" constant="20" id="oPC-H3-OFF"/>
+                    <constraint firstItem="iRb-3w-XxM" firstAttribute="top" secondItem="lAM-98-WJR" secondAttribute="bottom" constant="8" id="p7w-lJ-Rlu"/>
+                    <constraint firstItem="btS-3y-bbu" firstAttribute="leading" secondItem="ajW-oK-83n" secondAttribute="leading" constant="20" id="pU4-YD-Gle"/>
+                    <constraint firstItem="iRb-3w-XxM" firstAttribute="leading" secondItem="ajW-oK-83n" secondAttribute="leading" constant="20" id="s8N-Fb-NwR"/>
+                    <constraint firstAttribute="trailing" secondItem="btS-3y-bbu" secondAttribute="trailing" constant="20" id="s8y-UH-eq1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="city_address" destination="aoB-by-GWp" id="reX-fl-1YQ"/>
+                <outlet property="dob" destination="iRb-3w-XxM" id="6d6-qH-k6v"/>
+                <outlet property="gender_picker" destination="jfY-bG-RxU" id="lum-HL-lTv"/>
+                <outlet property="save_btn" destination="btS-3y-bbu" id="dG7-D4-GwS"/>
+                <outlet property="state_parish_address" destination="YlR-Hg-nxZ" id="viu-CP-3Ye"/>
+                <outlet property="street_address" destination="1b4-Gl-jPg" id="9vq-dg-k6m"/>
+            </connections>
+            <point key="canvasLocation" x="102.89855072463769" y="154.01785714285714"/>
+        </tableViewCell>
+    </objects>
+</document>

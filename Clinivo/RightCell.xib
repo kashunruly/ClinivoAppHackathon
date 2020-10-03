@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RightCell" rowHeight="65" id="Edk-Ne-POG" customClass="DoctorChatTableViewCell" customModule="Clinivo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Edk-Ne-POG" id="K9z-sM-BeA">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="65"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nph-9r-hgN">
+                        <rect key="frame" x="324" y="10" width="70" height="45"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hey" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XIy-kO-FjG">
+                                <rect key="frame" x="8" y="5" width="54" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XIy-kO-FjG" firstAttribute="top" secondItem="nph-9r-hgN" secondAttribute="top" constant="5" id="Bfm-r2-gLX"/>
+                            <constraint firstAttribute="trailing" secondItem="XIy-kO-FjG" secondAttribute="trailing" constant="8" id="Dhg-l3-DJZ"/>
+                            <constraint firstItem="XIy-kO-FjG" firstAttribute="centerY" secondItem="nph-9r-hgN" secondAttribute="centerY" id="NyV-5c-Ywr"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="39.5" id="Qle-fF-OX8"/>
+                            <constraint firstItem="XIy-kO-FjG" firstAttribute="leading" secondItem="nph-9r-hgN" secondAttribute="leading" constant="8" id="UNf-Dh-a90"/>
+                            <constraint firstAttribute="bottom" secondItem="XIy-kO-FjG" secondAttribute="bottom" constant="5" id="drD-Xp-0iO"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="hly-A5-f5m"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="nph-9r-hgN" secondAttribute="trailing" constant="20" id="EPg-y6-JgV"/>
+                    <constraint firstItem="nph-9r-hgN" firstAttribute="top" secondItem="K9z-sM-BeA" secondAttribute="top" constant="10" id="K5D-hv-eq4"/>
+                    <constraint firstItem="nph-9r-hgN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="K9z-sM-BeA" secondAttribute="leading" constant="139" id="iVF-LO-QXU"/>
+                    <constraint firstAttribute="bottom" secondItem="nph-9r-hgN" secondAttribute="bottom" constant="10" id="rCP-32-d4l"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="messageText" destination="XIy-kO-FjG" id="5X0-jz-221"/>
+                <outlet property="rightBubble" destination="nph-9r-hgN" id="dSV-NK-th6"/>
+            </connections>
+            <point key="canvasLocation" x="97" y="111"/>
+        </tableViewCell>
+    </objects>
+</document>

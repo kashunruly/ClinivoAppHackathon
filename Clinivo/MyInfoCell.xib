@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyInfoCell" id="gtV-Kv-XAh" customClass="MyInfoTableViewCell" customModule="Clinivo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="gtV-Kv-XAh" id="rQr-1h-Ggf">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient-2" translatesAutoresizingMaskIntoConstraints="NO" id="swW-sz-0ds">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="226"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patient's Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kl7-K5-a1l">
+                        <rect key="frame" x="20" y="25" width="143" height="23.5"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Age: 25" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mII-2H-QwH">
+                        <rect key="frame" x="332" y="25" width="62" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="new kingston" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rA-pb-iHR">
+                        <rect key="frame" x="20" y="104.5" width="109" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kingston, Kingston" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ia6-Yd-q9l">
+                        <rect key="frame" x="20" y="139.5" width="157" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jamaica" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2g-gy-tXN">
+                        <rect key="frame" x="20" y="174.5" width="70" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8a-Ie-fI0">
+                        <rect key="frame" x="20" y="78.5" width="71" height="21"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DOB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iht-E6-LZr">
+                        <rect key="frame" x="276" y="79" width="105" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="March 24, 1999" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FCa-6f-Wha">
+                        <rect key="frame" x="263" y="104" width="131" height="20"/>
+                        <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                        <color key="textColor" red="0.93333333330000001" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qGx-gd-xtx">
+                        <rect key="frame" x="296" y="167" width="65" height="35"/>
+                        <color key="backgroundColor" red="0.17420804500000001" green="0.041921250520000002" blue="0.1684543788" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="hFf-G5-Jt5"/>
+                            <constraint firstAttribute="width" constant="65" id="wRO-6m-FgG"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Edit Info"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="qGx-gd-xtx" firstAttribute="centerX" secondItem="Iht-E6-LZr" secondAttribute="centerX" id="2Fl-Mk-UHH"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Iht-E6-LZr" secondAttribute="trailing" constant="13" id="3Cu-9D-nrG"/>
+                    <constraint firstItem="FCa-6f-Wha" firstAttribute="top" secondItem="Iht-E6-LZr" secondAttribute="bottom" constant="5" id="A7Q-kC-X7K"/>
+                    <constraint firstItem="C8a-Ie-fI0" firstAttribute="leading" secondItem="rQr-1h-Ggf" secondAttribute="leadingMargin" id="CB0-g1-II7"/>
+                    <constraint firstItem="FCa-6f-Wha" firstAttribute="trailing" secondItem="rQr-1h-Ggf" secondAttribute="trailingMargin" id="D0I-lJ-Plf"/>
+                    <constraint firstItem="Kl7-K5-a1l" firstAttribute="top" secondItem="rQr-1h-Ggf" secondAttribute="top" constant="25" id="GAx-Gt-3p1"/>
+                    <constraint firstAttribute="trailing" secondItem="mII-2H-QwH" secondAttribute="trailing" constant="20" id="KyQ-aM-ClI"/>
+                    <constraint firstItem="FCa-6f-Wha" firstAttribute="centerX" secondItem="Iht-E6-LZr" secondAttribute="centerX" id="Nzt-Th-Dza"/>
+                    <constraint firstItem="W2g-gy-tXN" firstAttribute="leading" secondItem="rQr-1h-Ggf" secondAttribute="leadingMargin" id="Raz-ZY-otz"/>
+                    <constraint firstItem="Kl7-K5-a1l" firstAttribute="leading" secondItem="rQr-1h-Ggf" secondAttribute="leading" constant="20" id="WBP-Xi-KaA"/>
+                    <constraint firstItem="5rA-pb-iHR" firstAttribute="top" secondItem="C8a-Ie-fI0" secondAttribute="bottom" constant="5" id="hGh-zV-kqz"/>
+                    <constraint firstItem="Iht-E6-LZr" firstAttribute="centerY" secondItem="C8a-Ie-fI0" secondAttribute="centerY" id="iKi-9m-jNN"/>
+                    <constraint firstItem="5rA-pb-iHR" firstAttribute="leading" secondItem="rQr-1h-Ggf" secondAttribute="leadingMargin" id="kqo-Ut-zz5"/>
+                    <constraint firstItem="Ia6-Yd-q9l" firstAttribute="top" secondItem="5rA-pb-iHR" secondAttribute="bottom" constant="15" id="lJo-Hw-pxs"/>
+                    <constraint firstItem="C8a-Ie-fI0" firstAttribute="top" secondItem="Kl7-K5-a1l" secondAttribute="bottom" constant="30" id="orq-HY-arD"/>
+                    <constraint firstItem="qGx-gd-xtx" firstAttribute="centerY" secondItem="W2g-gy-tXN" secondAttribute="centerY" id="q7T-Zk-Pi2"/>
+                    <constraint firstItem="W2g-gy-tXN" firstAttribute="top" secondItem="Ia6-Yd-q9l" secondAttribute="bottom" constant="15" id="td8-On-W5c"/>
+                    <constraint firstItem="Ia6-Yd-q9l" firstAttribute="leading" secondItem="rQr-1h-Ggf" secondAttribute="leadingMargin" id="ugg-i3-guG"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="W2g-gy-tXN" secondAttribute="bottom" constant="20.5" id="wmQ-sl-KXU"/>
+                    <constraint firstItem="mII-2H-QwH" firstAttribute="top" secondItem="rQr-1h-Ggf" secondAttribute="top" constant="25" id="xNS-aF-AUr"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="age" destination="mII-2H-QwH" id="ejr-Cc-IXq"/>
+                <outlet property="city_and_parish" destination="Ia6-Yd-q9l" id="NHh-b7-VI1"/>
+                <outlet property="country" destination="W2g-gy-tXN" id="KSA-FK-aqe"/>
+                <outlet property="dob" destination="FCa-6f-Wha" id="3yP-Zf-rhe"/>
+                <outlet property="edit_info_btn" destination="qGx-gd-xtx" id="6Vh-Sg-F4P"/>
+                <outlet property="paient_name" destination="Kl7-K5-a1l" id="moG-4o-BAa"/>
+                <outlet property="street" destination="5rA-pb-iHR" id="TcD-j6-LbT"/>
+            </connections>
+            <point key="canvasLocation" x="100.00000000000001" y="72.991071428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="gradient-2" width="95" height="206"/>
+    </resources>
+</document>
